@@ -160,7 +160,7 @@ $(document).ready(function () {
                 if (response.message) {
                     alert(response.message);
                 }
-                $(this).attr('disabled', false);
+                $('button.resend-code').attr('disabled', false);
             }
         })
     })
