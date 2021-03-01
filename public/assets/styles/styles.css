@@ -1,0 +1,68 @@
+html {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+}
+
+.sidebar {
+    height: 100vh;
+}
+
+.sidebar:first-child {
+    background-image: url('https://i.pinimg.com/originals/60/44/70/6044702bbd161aaf92c1e4b4b80786ea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.header, .authentication {
+    width: 100%;
+}
+
+.authentication form.auth button,
+.verifyNumber button.verify {
+    text-align: center;
+    width: 100%;
+    background: #0022a5;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.authentication form.auth button:hover,
+.verifyNumber button.verify:hover {
+    background: #001a7f;
+}
+
+.form-control {
+    border-radius: 2px;
+    border: 1px solid #9da4ab;
+    padding: 10px;
+    height: 100%;
+}
+
+.form-control:focus {
+    border-color: #0022a5;
+    box-shadow: 0 0 0 1px #0022a5;
+    outline: 0;
+}
+
+.intl-tel-input {
+    width: 100%;
+}
+.alert-danger, .alert-success {
+    margin-top: 20px;
+}
+
+.alert-danger p,
+.alert-success p {
+    margin-bottom: 0;
+}
